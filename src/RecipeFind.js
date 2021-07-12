@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Axios from "axios";
-// import "./css/recipe-body.css";
+import "./css/recipe-find.css";
 
 class RecipeFind extends Component {
     constructor(props) {

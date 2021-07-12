@@ -21,8 +21,10 @@
   .input-form input[type="text"] {
     padding: 8px 20px;
     background-color: transparent;
-    border: 1.5px solid #93a;
+    border: 1.5px solid rgba(0, 0, 0, 0.623);
+    box-shadow: 0px 0px 1px 0px;
     color: #333;
+    border-radius: 5px;
     width: 300px;
     font-size: 1.2rem;
     top: 3px;
@@ -36,13 +38,12 @@
     font-size: 1.1rem;
     margin-left: 20px;
     padding: 10px;
-    border: 0;
-    background-color: #93a;
-    color: #eee;
+    border: 1px solid black;
     cursor: pointer;
   }
   
   .center {
     text-align: center;
+    
   }
   
