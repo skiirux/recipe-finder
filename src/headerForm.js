@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./css/header-form.css";
-// import RecipeBody from "./RecipeBody";
+import RecipeFind from "./RecipeFind.js";
 
 class HeaderForm extends Component {
     constructor(props) {
@@ -40,13 +40,13 @@ class HeaderForm extends Component {
                         />
                     </form>
                 </div>
-                {/* {this.state.searched ? (
-                    <RecipeBody foodItem={this.state.foodItem} />
+                {this.state.searched ? (
+                    <RecipeFind foodItem={this.state.foodItem} />
                 ) : (
                     <h2 className="center">
                         Type a Dish Name to search for its ingredients
                     </h2>
-                )} */}
+                )}
             </div>
         );
     }
