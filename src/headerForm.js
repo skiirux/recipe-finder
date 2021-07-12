@@ -26,7 +26,7 @@ class HeaderForm extends Component {
         return (
             <div>
                 <div className="header-container">
-                    <h1 className="heading">Meal Recipe Finder</h1>
+                    <h1 className="heading">Recipe Finder</h1>
                     <form className="input-form">
                         <input
                             type="text"
