@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Axios from "axios";
 import "./css/recipe-find.css";
+import Favorite from '@material-ui/icons/Favorite';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 class RecipeFind extends Component {
     constructor(props) {
@@ -67,6 +71,17 @@ class RecipeFind extends Component {
             meal !== null && meal.length > 0 ? (
                 <div className="recipeContainer">
                     <div className="title">
+                        <div class="heart-like" style={{
+                            margin: 'auto',
+                            display: 'block',
+                            width: 'fit-content'
+                        }}>
+                            <FormControlLabel
+                                control={<Checkbox icon={<FavoriteBorder />}
+                                    checkedIcon={<Favorite />}
+                                    name="checkedH" />}
+                            />
+                        </div>
                         <h1>{meal[0].strMeal}</h1>
                     </div>
                     <div className="recipeData">

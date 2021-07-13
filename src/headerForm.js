@@ -35,7 +35,7 @@ class HeaderForm extends Component {
                         />
                         <input
                             type="submit"
-                            value="Get Ingredients"
+                            value="Get Recipes"
                             onClick={this.getRecipe}
                         />
                     </form>
