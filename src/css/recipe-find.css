@@ -1,46 +1,57 @@
-
 .recipeData {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 px 5px;
-    background-color: rgba(231, 108, 231, 0.2);
-  }
-  
-  .title {
-    background-color: rgb(240, 230, 140, 0.4);
-    color:rgba(0, 0, 0, 0.678);
-     text-align: center;
-    padding: 10px;
-    margin: 5px 0;
-  }
-  
-  .recipeData img {
-    height: 350px;
-    width: 350px;
-    border: 2px solid black;
-    margin: auto 50px;
-  }
-  
-  .ingredients {
-    height: 200px;
-    overflow: auto;
-    padding: 5px 30px;
-    background-color: rgb(167, 167, 167, 0.5);
-    margin: 2px 1px 10px;
-    list-style-type: none;
-  }
-  
-  .recipe {
-    height: 200px;
-    background-color: rgb(167, 167, 167, 0.5);
-    padding: 10px 20px;
-    overflow: auto;
-  }
-  
-  .noData {
-    text-align: center;
-  }
-  .heart-like{
-    float: right;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 px 5px;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+}
+
+.title {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+
+  color: rgba(0, 0, 0, 0.678);
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.recipeData img {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  margin: auto 50px;
+}
+
+.ingredients {
+  height: 200px;
+  overflow: auto;
+  padding: 5px 30px;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+
+  margin: 2px 1px 10px;
+  list-style-type: none;
+}
+
+.recipe {
+  height: 200px;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+
+  padding: 10px 20px;
+  overflow: auto;
+}
+
+.noData {
+  text-align: center;
+}
+.heart-like {
+  float: right;
+}
